@@ -1,14 +1,14 @@
 package com.example.demo.Entity;
 
 public class Student {
-	public int ID;
+	public int Id;
 	public String name;
 	
-	public int getID() {
-		return ID;
+	public int getId() {
+		return Id;
 	}
-	public void setID(int iD) {
-		ID = iD;
+	public void setId(int id) {
+		this.Id = id;
 	}
 	public String getName() {
 		return name;
