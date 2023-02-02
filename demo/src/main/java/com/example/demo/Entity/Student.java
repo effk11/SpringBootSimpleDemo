@@ -1,13 +1,21 @@
 package com.example.demo.Entity;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="studentt")
 public class Student {
-	public int Id;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public Integer Id;
+	@Column(name="name")
 	public String name;
 	
-	public int getId() {
+	public Integer getId() {
 		return Id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.Id = id;
 	}
 	public String getName() {
