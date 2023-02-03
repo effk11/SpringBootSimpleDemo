@@ -5,8 +5,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Dao.StudentDao;
-import com.example.demo.Entity.Student;
+import com.example.demo.Dao.DaoStudent.StudentDao;
+import com.example.demo.Entity.EntityStudent.Student;
+
+import jakarta.transaction.Transactional;
 
 @Service
 public class StudentService {
@@ -26,6 +28,6 @@ public class StudentService {
 	}
 	
 	public int getStudentQuantity() {
-		return studentDao.dishQuantity();
+		return studentDao.Quantity();
 	}
 }
