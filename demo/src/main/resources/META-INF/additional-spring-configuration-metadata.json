@@ -1,0 +1,33 @@
+{"properties": [{
+  "name": "spring.datasource.one.username",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.username'"
+},{
+  "name": "spring.datasource.one.password",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+},{
+  "name": "spring.datasource.one.jdbc-url",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+},{
+  "name": "spring.datasource.one.driver-class-name",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+},{
+  "name": "spring.datasource.two.username",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+},{
+  "name": "spring.datasource.two.password",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+},{
+  "name": "spring.datasource.two.jdbc-url",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+},{
+  "name": "spring.datasource.two.driver-class-name",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.one.jdbc-url'"
+}]}
